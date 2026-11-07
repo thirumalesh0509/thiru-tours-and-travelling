@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Thiru Tours</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <a class="logo" href="index.html">THIRU
+        <span>TOURS & TRAVELLING</span>
+    </a>
+    <button class="menu-toggle">☰</button>
+    <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="packages.html">Packages</a>
+        <a href="gallery.html">Gallery</a>
+        <a class="active" href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <section class="page-banner contact-banner">
+        <p class="eyebrow">LET'S PLAN TOGETHER</p>
+        <h1>Contact Us</h1>
+        <p>Tell us about the trip you have in mind.</p>
+    </section>
+
+    <section class="section contact-layout">
+
+        <div>
+            <p class="eyebrow">GET IN TOUCH</p>
+            <h2>We Would Love to Hear From You</h2>
+            <p>Send your enquiry using the contact form.</p>
+
+            <div class="contact-detail">
+                <strong>Phone</strong>
+                <p>+91 98765 43210</p>
+            </div>
+
+            <div class="contact-detail">
+                <strong>Email</strong>
+                <p>hello@thirutours.example</p>
+            </div>
+
+            <div class="contact-detail">
+                <strong>Address</strong>
+                <p>Kurnool, Andhra Pradesh, India</p>
+            </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+
+            <label for="name">Full Name</label>
+            <input type="text" id="name"
+                   placeholder="Enter your name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email"
+                   placeholder="Enter your email" required>
+
+            <label for="destination">Preferred Destination</label>
+            <input type="text" id="destination"
+                   placeholder="Where would you like to go?">
+
+            <label for="message">Your Message</label>
+            <textarea id="message" rows="5"
+                      placeholder="Tell us about your travel plans"
+                      required></textarea>
+
+            <button type="submit" class="btn">Send Enquiry</button>
+
+            <p id="formMessage" class="form-message"></p>
+
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 Thiru Tours & Travelling. All rights reserved.</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
